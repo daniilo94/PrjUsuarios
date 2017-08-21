@@ -35,6 +35,10 @@ class UsuarioControl{
         return $result;
     }
 
+    public function excluir($id){
+        return $this->usuarioDAO->excluir($id);
+    }
+
     /**
      * @return Usuario
      */

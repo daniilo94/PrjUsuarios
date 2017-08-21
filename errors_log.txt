@@ -1,0 +1,28 @@
+[21-Aug-2017 22:27:23 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:27:28 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:45 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:46 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:47 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:47 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:47 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:47 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:30:52 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:04 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:06 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:07 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:32:08 Europe/Berlin] PHP Notice:  Undefined index: id in C:\xampp\htdocs\PrjUsuarios\excluir.php on line 13
+[21-Aug-2017 22:40:12 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/2002): Nenhuma conex�o p�de ser feita porque a m�quina de destino as recusou ativamente.
+ in C:\xampp\htdocs\PrjUsuarios\dao\UsuarioDAO.php on line 19
+[21-Aug-2017 22:40:12 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\xampp\htdocs\PrjUsuarios\dao\UsuarioDAO.php on line 20
+[21-Aug-2017 22:40:12 Europe/Berlin] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, boolean given in C:\xampp\htdocs\PrjUsuarios\dao\UsuarioDAO.php on line 25
+[21-Aug-2017 22:40:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\PrjUsuarios\dao\UsuarioDAO.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PrjUsuarios\control\UsuarioControl.php(23): DAO\UsuarioDAO->buscarTodos()
+#1 C:\xampp\htdocs\PrjUsuarios\control\UsuarioControl.php(19): Control\UsuarioControl->carregarUsuarios()
+#2 C:\xampp\htdocs\PrjUsuarios\excluir.php(11): Control\UsuarioControl->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\PrjUsuarios\dao\UsuarioDAO.php on line 26

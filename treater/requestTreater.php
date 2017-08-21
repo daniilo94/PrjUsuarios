@@ -2,5 +2,5 @@
 namespace treater;
 
 class RequestTreater {
-    
+
 }
